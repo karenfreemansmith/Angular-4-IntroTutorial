@@ -100,5 +100,5 @@ export const CHARACTERS: Character[] = [
         "eye_color": "brown",
         "birth_year": "102BBY",
         "gender": "male"
-    },
+    }
 ];
