@@ -1,15 +1,10 @@
 <md-toolbar color="primary">
-  <span>Star Wars Angular 4 Trivia</span>
+  <span>{{title}}</span>
   <md-toolbar-row>
-    <button md-raised-button color="accent">Button 1</button>
-    <button md-raised-button color="accent">Button 2</button>
+    <button md-raised-button color="accent" routerLink="/movies">Movies</button>
+    <button md-raised-button color="accent" routerLink="/characters">Characters</button>
     <span></span>
   </md-toolbar-row>
 </md-toolbar>
-<h1>
-  {{title}}
-</h1>
-<a routerLink = "/movies">Movies</a>
-<a routerLink = "/characters">Characters</a>
 
 <router-outlet></router-outlet>
